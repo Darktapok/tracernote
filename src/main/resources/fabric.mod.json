@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tracernote",
+  "version": "${version}",
+  "name": "Tracer Note",
+  "description": "A Fabric mod for Minecraft",
+  "authors": [
+    "Darktapok"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Darktapok/tracernote",
+    "sources": "https://github.com/Darktapok/tracernote"
+  },
+  "license": "MIT",
+  "icon": "assets/tracernote/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.darktapok.tracernote.TracerNote"
+    ]
+  },
+  "mixins": [
+    "tracernote.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.3",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
